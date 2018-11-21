@@ -9,4 +9,4 @@ let schema = new Schema({
 
 })
 
-module.exports = mongoose.model('cat', schema)
+module.exports = mongoose.model('wish', schema)
