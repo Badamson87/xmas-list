@@ -1,0 +1,25 @@
+.hero{
+  display: flex;
+  background-size: cover;
+  background-image: url("./img/xmas.jpg");
+  height: 90vh;
+  width: 100vw;
+  display: center;
+}
+.hero-text{
+  display: flex;
+  color: white;
+  flex-direction: column;
+  margin-left: 10vw;
+  justify-content: center;
+  text-shadow: 0 0 10px black;
+}
+
+.catch-phrase{
+  display: flex;
+  color: white;
+  flex-direction: column;
+  margin-left: 10vw;
+  justify-content: center;
+  text-shadow: 0 0 10px black;
+}
