@@ -14,7 +14,8 @@ server.use(bp.urlencoded({ extended: true }))
 
 //register routes
 
-
+let wishRoutes = require('./server-assets/routes/wish-routes')
+server.use('/api/wish', wishRoutes)
 
 
 //Catch all
