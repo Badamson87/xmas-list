@@ -1,7 +1,7 @@
 let mongoose = require('mongoose')
 let Schema = mongoose.Schema
 
-let schema = new Schema({
+let Wish = new Schema({
   name: { type: String, required: true },
   description: { type: String, require: true },
   img: { type: String },
@@ -9,4 +9,4 @@ let schema = new Schema({
 
 })
 
-module.exports = mongoose.model('wish', schema)
+module.exports = mongoose.model('Wish', Wish)
